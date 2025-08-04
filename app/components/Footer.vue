@@ -1,62 +1,70 @@
 <template>
-  <footer class="bg-neutral-900 text-white py-10">
-    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-      <!-- Logo + About -->
-      <div>
-        <h2 class="text-xl font-semibold mb-3">ScandiHome</h2>
-        <p class="text-sm text-neutral-300">
-          Scandinavian inspired furniture and home décor. Modern, minimal, and
-          made for you.
-        </p>
-      </div>
+    <footer class="bg-neutral-900 text-white py-10">
+        <div
+            class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8"
+        >
+            <!-- Logo + Giới thiệu -->
+            <div>
+                <h2 class="text-xl font-semibold mb-3">Sofa Phú Giáo</h2>
+                <p class="text-sm text-neutral-300">
+                    Nội thất và trang trí cảm hứng Bắc Âu. Hiện đại, tối giản,
+                    dành cho bạn.
+                </p>
+            </div>
 
-      <!-- Quick Links -->
-      <div>
-        <h3 class="text-lg font-medium mb-2">Quick Links</h3>
-        <ul class="space-y-1 text-sm text-neutral-400">
-          <li><a href="#" class="hover:underline">Home</a></li>
-          <li><a href="#" class="hover:underline">Shop</a></li>
-          <li><a href="#" class="hover:underline">Sofas</a></li>
-          <li><a href="#" class="hover:underline">Contact</a></li>
-        </ul>
-      </div>
+            <!-- Liên kết nhanh -->
+            <div>
+                <h3 class="text-lg font-medium mb-2">Liên kết nhanh</h3>
+                <ul class="space-y-1 text-sm text-neutral-400">
+                    <li><a href="#" class="hover:underline">Trang chủ</a></li>
+                    <li><a href="#" class="hover:underline">Sản phẩm</a></li>
+                    <li><a href="#" class="hover:underline">Sofa</a></li>
+                    <li><a href="#" class="hover:underline">Liên hệ</a></li>
+                </ul>
+            </div>
 
-      <!-- Customer Service -->
-      <div>
-        <h3 class="text-lg font-medium mb-2">Customer Service</h3>
-        <ul class="space-y-1 text-sm text-neutral-400">
-          <li><a href="#" class="hover:underline">FAQ</a></li>
-          <li><a href="#" class="hover:underline">Shipping & Returns</a></li>
-          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
-          <li><a href="#" class="hover:underline">Terms of Service</a></li>
-        </ul>
-      </div>
+            <!-- Hỗ trợ khách hàng -->
+            <div>
+                <h3 class="text-lg font-medium mb-2">Hỗ trợ khách hàng</h3>
+                <ul class="space-y-1 text-sm text-neutral-400">
+                    <li>
+                        <a href="#" class="hover:underline"
+                            >Câu hỏi thường gặp</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline"
+                            >Vận chuyển & Đổi trả</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline"
+                            >Chính sách bảo mật</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline"
+                            >Điều khoản dịch vụ</a
+                        >
+                    </li>
+                </ul>
+            </div>
 
-      <!-- Newsletter -->
-      <div>
-        <h3 class="text-lg font-medium mb-2">Stay Updated</h3>
-        <p class="text-sm text-neutral-300 mb-3">Subscribe to our newsletter</p>
-        <form @submit.prevent class="flex flex-col space-y-2">
-          <input
-            type="email"
-            placeholder="Your email"
-            class="px-3 py-2 rounded text-black"
-          />
-          <button
-            type="submit"
-            class="bg-white text-black px-3 py-2 rounded hover:bg-neutral-200"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
-    </div>
+            <!-- Đăng ký nhận tin -->
+            <div>
+                <h3 class="text-lg font-medium mb-2">Nhận thông tin mới</h3>
+                <p class="text-sm text-neutral-300 mb-3">
+                    Đăng ký nhận bản tin của chúng tôi
+                </p>
+                <p class="text-sm text-neutral-300">Điện thoại: 0937 704 598</p>
+            </div>
+        </div>
 
-    <!-- Bottom line -->
-    <div
-      class="mt-10 border-t border-neutral-700 pt-5 text-center text-sm text-neutral-400"
-    >
-      &copy; 2025 ScandiHome. All rights reserved.
-    </div>
-  </footer>
+        <!-- Dòng cuối -->
+        <div
+            class="mt-10 border-t border-neutral-700 pt-5 text-center text-sm text-neutral-400"
+        >
+            &copy; 2025 Sofa Phú Giáo. Đã đăng ký bản quyền.
+        </div>
+    </footer>
 </template>
