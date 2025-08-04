@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     ssr: false, // vì GitHub Pages chỉ hỗ trợ static
     target: "static", // không bắt buộc nhưng rõ ràng
     app: {
-        baseURL: "/hair-salon-x1/", // ⚠️ thay <REPO_NAME> bằng tên repo của bạn
+        baseURL: "/noi-that-sofa-x1/", // ⚠️ thay <REPO_NAME> bằng tên repo của bạn
     },
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },

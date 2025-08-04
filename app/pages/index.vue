@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <HeroSection />
-    <ContentSection />
-    <CollectionsSofas />
-  </div>
+    <div>
+        <HeroSection />
+        <ContentSection />
+        <CollectionsSofas />
+    </div>
 </template>
 
 <script setup>
